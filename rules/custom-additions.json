@@ -3,7 +3,7 @@
   "lastUpdated": "2025-09-08T14:20:00Z",
   "description": "Custom rules to be added to detection-rules.json after updates",
   "trusted_login_patterns": [
-
+    
   ],
   "microsoft_domain_patterns": [
 
@@ -11,5 +11,5 @@
   "exclusion_system": {
     "description": "Centralized exclusion system to prevent false positives on legitimate sites",
     "domain_patterns": [
-
+      "^https://[^/]*\\.meraki\\.com(/.*)?$"
     ],
