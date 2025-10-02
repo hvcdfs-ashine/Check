@@ -49,6 +49,7 @@
       "^https://[^/]*\\.(facebook|twitter|x|linkedin|instagram)\\.com(/.*)?$",
       "^https://[^/]*\\.(youtube|youtu)\\.be(/.*)?$",
       "^https://[^/]*\\.apple\\.com(/.*)?$",
+      "^https://[^/]*\\.meraki\\.com(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
       "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$"
     ],
