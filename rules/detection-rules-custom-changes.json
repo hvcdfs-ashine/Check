@@ -11,7 +11,9 @@
   "exclusion_system": {
     "description": "Centralized exclusion system to prevent false positives on legitimate sites (Microsoft partners, SSO providers, major platforms)",
     "domain_patterns": [
-      "^https:\\/\\/(?:[^/]*\\.)?zoom\\.us(/.*)?$"
+      "^https:\\/\\/(?:[^/]*\\.)?zoom\\.us(/.*)?$",
+      "^https:\\/\\/(?:[^/]*\\.)?surveychimp\\.net(/.*)?$",
+      "^https:\\/\\/(?:[^/]*\\.)?enterprisesupportcenter\\.com(/.*)?$"
     ],
   }
 }
